@@ -1,4 +1,6 @@
-package Model;
+package Main;
+
+
 
 public class Pessoa {
 

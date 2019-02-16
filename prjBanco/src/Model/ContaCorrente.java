@@ -39,8 +39,12 @@ public class ContaCorrente extends Pessoa {
         return msg;
     }
 
-    public String extrato(double valor) {
-        return "";
+    public String extrato() {
+        return "<html>"
+                + "Nome completo: " + getNome() + " " + getSobrenome()
+                + "<br>CPF: " + getCpf()
+                + "<br>Saldo disponível: " + getSaldo()
+                + "</html>";
     }
 
     public String transferir(double valor) {

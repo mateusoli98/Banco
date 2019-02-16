@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Model;
 
 /**
@@ -10,15 +5,10 @@ package Model;
  * @author Mateus
  */
 public class Pessoa {
-    private String nome, sobrenome;
-    private double saldoConta;
 
-    public Pessoa(String nome, String sobrenome, double saldoConta) {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-        this.saldoConta = saldoConta;
-    }
-    
+    private String nome, sobrenome;
+    private int cpf;
+
     public String getNome() {
         return nome;
     }
@@ -35,12 +25,12 @@ public class Pessoa {
         this.sobrenome = sobrenome;
     }
 
-    public double getSaldoConta() {
-        return saldoConta;
+    public int getCpf() {
+        return cpf;
     }
 
-    public void setSaldoConta(double saldoConta) {
-        this.saldoConta = saldoConta;
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
     }
-    
+
 }

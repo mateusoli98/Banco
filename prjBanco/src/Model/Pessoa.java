@@ -1,9 +1,5 @@
 package Model;
 
-/**
- *
- * @author Mateus
- */
 public class Pessoa {
 
     private String nome, sobrenome;

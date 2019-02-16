@@ -5,6 +5,13 @@ public class Pessoa {
     private String nome, sobrenome;
     private int cpf;
 
+    public Pessoa(String nome, String sobrenome, int cpf) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.cpf = cpf;
+    }
+
+    
     public String getNome() {
         return nome;
     }

@@ -1,4 +1,4 @@
-package Main;
+package model;
 
 public class ContaCorrente extends Pessoa {
 

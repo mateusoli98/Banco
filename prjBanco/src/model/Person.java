@@ -4,12 +4,18 @@ public class Person {
 
     private String name;
     private String surname;
-    private int cpf;
+    private String cpf;
 
-    public Person(String name, String surname, int cpf) {
+    public Person(String name, String surname, String cpf) {
         this.name = name;
         this.surname = surname;
         this.cpf = cpf;
+    }
+
+    public Person() {
+        this.name = "";
+        this.surname = "";
+        this.cpf = "";
     }
 
     public String getName() {
@@ -28,10 +34,11 @@ public class Person {
         this.surname = surname;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
-    public void setCpf(int cpf) {
+
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 }

@@ -15,6 +15,10 @@ public class CurrentAccountController {
         return this.currentAccount;
     }
 
+    public CurrentAccountController update(Person p) {
+        return new CurrentAccountController(p);
+    }
+
     public String deposit(double value) {
         String statusMessage = "Erro na operção tente novamente!";
         if (value > 0) {
